@@ -1,0 +1,94 @@
+﻿  VMwareTest.cpp
+D:\programfile\Visual Studio\IDE\VC\Tools\MSVC\14.26.28801\include\regex(3320,20): warning C4244: “参数”: 从“wchar_t”转换到“char”，可能丢失数据
+D:\programfile\Visual Studio\IDE\VC\Tools\MSVC\14.26.28801\include\regex(3333): message : 查看对正在编译的函数 模板 实例化“_BidIt1 *std::_Cmp_chrange<_BidIt1,_BidIt2,std::_Cmp_icase<_RxTraits>>(_BidIt1,_BidIt1,_BidIt2,_BidIt2,_Pr)”的引用
+          with
+          [
+              _BidIt1=wchar_t *,
+              _BidIt2=const char *,
+              _RxTraits=std::regex_traits<char>,
+              _Pr=std::_Cmp_icase<std::regex_traits<char>>
+          ]
+D:\programfile\Visual Studio\IDE\VC\Tools\MSVC\14.26.28801\include\regex(3708): message : 查看对正在编译的函数 模板 实例化“_BidIt1 std::_Compare<_BidIt,const _Elem*,_RxTraits>(_BidIt1,_BidIt1,_BidIt2,_BidIt2,const _RxTraits &,std::regex_constants::syntax_option_type)”的引用
+          with
+          [
+              _BidIt1=wchar_t *,
+              _BidIt=wchar_t *,
+              _Elem=char,
+              _RxTraits=std::regex_traits<char>,
+              _BidIt2=const char *
+          ]
+D:\programfile\Visual Studio\IDE\VC\Tools\MSVC\14.26.28801\include\regex(3677): message : 在编译 类 模板 成员函数“_BidIt std::_Matcher<_BidIt,_Elem,_RxTraits,_It>::_Skip(_BidIt,_BidIt,std::_Node_base *)”时
+          with
+          [
+              _BidIt=wchar_t *,
+              _Elem=char,
+              _RxTraits=std::regex_traits<char>,
+              _It=TCHAR *
+          ]
+D:\programfile\Visual Studio\IDE\VC\Tools\MSVC\14.26.28801\include\regex(2234): message : 查看对正在编译的函数 模板 实例化“_BidIt std::_Matcher<_BidIt,_Elem,_RxTraits,_It>::_Skip(_BidIt,_BidIt,std::_Node_base *)”的引用
+          with
+          [
+              _BidIt=wchar_t *,
+              _Elem=char,
+              _RxTraits=std::regex_traits<char>,
+              _It=TCHAR *
+          ]
+D:\programfile\Visual Studio\IDE\VC\Tools\MSVC\14.26.28801\include\regex(2227): message : 查看对正在编译的 类 模板 实例化“std::_Matcher<_BidIt,_Elem,_RxTraits,_It>”的引用
+          with
+          [
+              _BidIt=wchar_t *,
+              _Elem=char,
+              _RxTraits=std::regex_traits<char>,
+              _It=TCHAR *
+          ]
+D:\programfile\Visual Studio\IDE\VC\Tools\MSVC\14.26.28801\include\regex(2270): message : 查看对正在编译的函数 模板 实例化“bool std::_Regex_search2<wchar_t*,std::allocator<std::sub_match<wchar_t *>>,char,std::regex_traits<char>,_BidIt>(_It,_It,std::match_results<_BidIt,std::allocator<std::sub_match<_BidIt>>> *,const std::basic_regex<char,std::regex_traits<char>> &,std::regex_constants::match_flag_type,_It)”的引用
+          with
+          [
+              _BidIt=TCHAR *,
+              _It=TCHAR *
+          ]
+E:\3_C\C\VMwareTest\VMwareTest\VMwareTest.cpp(78): message : 查看对正在编译的函数 模板 实例化“bool std::regex_search<TCHAR*,char,std::regex_traits<char>>(_BidIt,_BidIt,const std::basic_regex<char,std::regex_traits<char>> &,std::regex_constants::match_flag_type)”的引用
+          with
+          [
+              _BidIt=TCHAR *
+          ]
+D:\programfile\Visual Studio\IDE\VC\Tools\MSVC\14.26.28801\include\regex(3320,32): warning C4244: “参数”: 从“TCHAR”转换到“char”，可能丢失数据
+D:\programfile\Visual Studio\IDE\VC\Tools\MSVC\14.26.28801\include\regex(3333): message : 查看对正在编译的函数 模板 实例化“_BidIt1 *std::_Cmp_chrange<_BidIt1,_BidIt2,std::_Cmp_icase<_RxTraits>>(_BidIt1,_BidIt1,_BidIt2,_BidIt2,_Pr)”的引用
+          with
+          [
+              _BidIt1=TCHAR *,
+              _BidIt2=TCHAR *,
+              _RxTraits=std::regex_traits<char>,
+              _Pr=std::_Cmp_icase<std::regex_traits<char>>
+          ]
+D:\programfile\Visual Studio\IDE\VC\Tools\MSVC\14.26.28801\include\regex(3602): message : 查看对正在编译的函数 模板 实例化“_BidIt1 std::_Compare<_BidIt,_It,_RxTraits>(_BidIt1,_BidIt1,_BidIt2,_BidIt2,const _RxTraits &,std::regex_constants::syntax_option_type)”的引用
+          with
+          [
+              _BidIt1=TCHAR *,
+              _BidIt=TCHAR *,
+              _It=TCHAR *,
+              _RxTraits=std::regex_traits<char>,
+              _BidIt2=TCHAR *
+          ]
+D:\programfile\Visual Studio\IDE\VC\Tools\MSVC\14.26.28801\include\regex(3483): message : 在编译 类 模板 成员函数“bool std::_Matcher<_BidIt,_Elem,_RxTraits,_It>::_Match_pat(std::_Node_base *)”时
+          with
+          [
+              _BidIt=wchar_t *,
+              _Elem=char,
+              _RxTraits=std::regex_traits<char>,
+              _It=TCHAR *
+          ]
+D:\programfile\Visual Studio\IDE\VC\Tools\MSVC\14.26.28801\include\regex(1608): message : 查看对正在编译的函数 模板 实例化“bool std::_Matcher<_BidIt,_Elem,_RxTraits,_It>::_Match_pat(std::_Node_base *)”的引用
+          with
+          [
+              _BidIt=wchar_t *,
+              _Elem=char,
+              _RxTraits=std::regex_traits<char>,
+              _It=TCHAR *
+          ]
+D:\programfile\Visual Studio\IDE\VC\Tools\MSVC\14.26.28801\include\regex(3320,20): warning C4244: “参数”: 从“TCHAR”转换到“char”，可能丢失数据
+VMwareTest.obj : error LNK2019: 无法解析的外部符号 __imp_SetupDiEnumDeviceInfo，函数 main 中引用了该符号
+VMwareTest.obj : error LNK2019: 无法解析的外部符号 __imp_SetupDiDestroyDeviceInfoList，函数 main 中引用了该符号
+VMwareTest.obj : error LNK2019: 无法解析的外部符号 __imp_SetupDiGetClassDevsW，函数 main 中引用了该符号
+VMwareTest.obj : error LNK2019: 无法解析的外部符号 __imp_SetupDiGetDeviceRegistryPropertyW，函数 "int __cdecl findVmwareString(void *,struct _SP_DEVINFO_DATA,unsigned long)" (?findVmwareString@@YAHPEAXU_SP_DEVINFO_DATA@@K@Z) 中引用了该符号
+E:\3_C\C\VMwareTest\x64\Debug\VMwareTest.exe : fatal error LNK1120: 4 个无法解析的外部命令
